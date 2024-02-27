@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Feb 26 22:54:13 2024
+# Process ID: 8836
+# Current directory: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6052 C:\Users\Jamar.Price\OneDrive - afacademy.af.edu\ECE\ECE 281\Labs\Lab 2\lab2\binaryHexDisp\binaryHexDisp.xpr
+# Log file: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp/vivado.log
+# Journal file: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp\vivado.jou
+#-----------------------------------------------------------
+ststart_guopopen_project {C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp/binaryHexDisp.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDispScScanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specifieININFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2018.2/data/ip'opopen_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 775.277 ; gain = 44.00upupdate_compile_order -fileset sources_update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 00:05:00 2024...

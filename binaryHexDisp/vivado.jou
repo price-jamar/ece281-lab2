@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Feb 27 16:04:32 2024
+# Process ID: 1608
+# Current directory: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23460 C:\Users\Jamar.Price\OneDrive - afacademy.af.edu\ECE\ECE 281\Labs\Lab 2\lab2\binaryHexDisp\binaryHexDisp.xpr
+# Log file: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp/vivado.log
+# Journal file: C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Jamar.Price/OneDrive - afacademy.af.edu/ECE/ECE 281/Labs/Lab 2/lab2/binaryHexDisp/binaryHexDisp.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source sevenSegDecoder_tb.tcl
+close_sim

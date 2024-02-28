@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sources_1/imports/hdl/top_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_basys3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sources_1/imports/hdl/sevenSegDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sevenSegDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/hdl/sevenSegDecode_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sevenSegDecoder_tb

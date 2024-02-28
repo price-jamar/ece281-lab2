@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date             : Tue Feb 27 17:03:25 2024
+| Date             : Tue Feb 27 19:48:07 2024
 | Host             : C26-5CG2151NP1 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_basys3_power_routed.rpt -pb top_basys3_power_summary_routed.pb -rpx top_basys3_power_routed.rpx
 | Design           : top_basys3
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.927        |
+| Total On-Chip Power (W)  | 8.661        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.848        |
-| Device Static (W)        | 0.078        |
+| Dynamic (W)              | 8.539        |
+| Device Static (W)        | 0.122        |
 | Effective TJA (C/W)      | 5.0          |
-| Max Ambient (C)          | 70.4         |
-| Junction Temperature (C) | 39.6         |
+| Max Ambient (C)          | 41.7         |
+| Junction Temperature (C) | 68.3         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,13 +52,13 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.025 |        9 |       --- |             --- |
-|   LUT as Logic |     0.025 |        5 |     20800 |            0.02 |
+| Slice Logic    |     0.024 |        9 |       --- |             --- |
+|   LUT as Logic |     0.024 |        5 |     20800 |            0.02 |
 |   Others       |     0.000 |        1 |       --- |             --- |
-| Signals        |     0.064 |       13 |       --- |             --- |
-| I/O            |     2.759 |       16 |       106 |           15.09 |
-| Static Power   |     0.078 |          |           |                 |
-| Total          |     2.927 |          |           |                 |
+| Signals        |     0.090 |       13 |       --- |             --- |
+| I/O            |     8.425 |       16 |       106 |           15.09 |
+| Static Power   |     0.122 |          |           |                 |
+| Total          |     8.661 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,16 +68,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.125 |       0.109 |      0.016 |
-| Vccaux    |       1.800 |     0.237 |       0.224 |      0.013 |
-| Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
+| Vccint    |       1.000 |     0.184 |       0.134 |      0.051 |
+| Vccaux    |       1.800 |     0.325 |       0.308 |      0.017 |
+| Vcco33    |       3.300 |     2.380 |       2.379 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     1.299 |       1.298 |      0.001 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.001 |       0.000 |      0.001 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -132,11 +132,11 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------------+-----------+
-| Name       | Power (W) |
-+------------+-----------+
-| top_basys3 |     2.848 |
-|   uut_inst |     0.061 |
-+------------+-----------+
++------------------------+-----------+
+| Name                   | Power (W) |
++------------------------+-----------+
+| top_basys3             |     8.539 |
+|   sevenSegDecoder_inst |     0.059 |
++------------------------+-----------+
 
 

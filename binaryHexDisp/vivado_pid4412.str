@@ -1,0 +1,164 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 4412
+License: Customer
+
+Current time: 	Tue Feb 27 21:40:16 MST 2024
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 749 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	C26Jamar.Price
+User home directory: C:/Users/Jamar.Price
+User working directory: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Vivado
+HDI_APPROOT: C:/Vivado/2018.2
+RDI_DATADIR: C:/Vivado/2018.2/data
+RDI_BINDIR: C:/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Jamar.Price/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Jamar.Price/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Jamar.Price/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/vivado.log
+Vivado journal file location: 	C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/vivado.jou
+Engine tmp dir: 	C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/.Xil/Vivado-4412-C26-5CG2151NP1
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Vivado/2018.2
+XILINX_SDK: C:/SDK/2018.2
+XILINX_VIVADO: C:/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Vivado/2018.2
+
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 498 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Jamar.Price\Desktop\ece281-lab2\binaryHexDisp\binaryHexDisp.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+59895kb) [00:00:10]
+// [Engine Memory]: 488 MB (+360081kb) [00:00:10]
+// Tcl Message: open_project C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 64 MB (+1721kb) [00:00:12]
+// [Engine Memory]: 562 MB (+52469kb) [00:00:12]
+// [GUI Memory]: 74 MB (+6872kb) [00:00:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 595 MB. GUI used memory: 38 MB. Current time: 2/27/24 9:40:20 PM MST
+// Tcl Message: open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 835.629 ; gain = 112.699 
+// Project name: binaryHexDisp; location: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp; part: xc7a35tcpg236-1
+// [Engine Memory]: 601 MB (+11251kb) [00:00:15]
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (ck): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// 'cv' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Tue Feb 27 21:40:31 2024] Launched synth_1... Run output will be captured here: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.runs/synth_1/runme.log [Tue Feb 27 21:40:31 2024] Launched impl_1... Run output will be captured here: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 150 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 37 MB. Current time: 2/27/24 9:43:04 PM MST
+// [Engine Memory]: 735 MB (+108889kb) [00:03:01]
+// [Engine Memory]: 915 MB (+150368kb) [00:03:06]
+// [Engine Memory]: 966 MB (+4787kb) [00:03:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,005 MB. GUI used memory: 37 MB. Current time: 2/27/24 9:43:19 PM MST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,343 MB. GUI used memory: 37 MB. Current time: 2/27/24 9:43:21 PM MST
+// [Engine Memory]: 1,343 MB (+344855kb) [00:03:15]
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,445 MB (+36602kb) [00:03:16]
+// Xgd.load filename: C:/Vivado/2018.2/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.5s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.1s
+// [GUI Memory]: 81 MB (+3538kb) [00:03:17]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1627.648 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1627.648 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Device view-level: 0.0
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1769.133 ; gain = 927.758 
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 85 MB (+293kb) [00:03:19]
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 91 MB (+1380kb) [00:03:20]
+// 'dP' command handler elapsed time: 24 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)

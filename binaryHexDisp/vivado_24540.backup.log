@@ -2,10 +2,10 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Feb 27 21:39:58 2024
-# Process ID: 4412
+# Start of session at: Tue Feb 27 21:22:57 2024
+# Process ID: 24540
 # Current directory: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24444 C:\Users\Jamar.Price\Desktop\ece281-lab2\binaryHexDisp\binaryHexDisp.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21844 C:\Users\Jamar.Price\Desktop\ece281-lab2\binaryHexDisp\binaryHexDisp.xpr
 # Log file: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/vivado.log
 # Journal file: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp\vivado.jou
 #-----------------------------------------------------------
@@ -16,10 +16,6 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2018.2/data/ip'.
-open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 835.629 ; gain = 112.699
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 4
-[Tue Feb 27 21:40:31 2024] Launched synth_1...
-Run output will be captured here: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.runs/synth_1/runme.log
-[Tue Feb 27 21:40:31 2024] Launched impl_1...
-Run output will be captured here: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.runs/impl_1/runme.log
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 785.352 ; gain = 30.617
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 21:26:19 2024...

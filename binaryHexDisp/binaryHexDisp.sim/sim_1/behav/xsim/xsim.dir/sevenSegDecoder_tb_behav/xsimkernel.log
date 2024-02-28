@@ -2,3 +2,6 @@ Running: xsim.dir/sevenSegDecoder_tb_behav/xsimk.exe -simmode gui -wdb sevenSegD
 Design successfully loaded
 Design Loading Memory Usage: 6696 KB (Peak: 6696 KB)
 Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7284 KB (Peak: 7284 KB)
+Simulation CPU Usage: 15 ms

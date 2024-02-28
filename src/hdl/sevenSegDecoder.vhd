@@ -28,8 +28,8 @@ use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if instantiating
 -- any Xilinx leaf cells in this code.
-library UNISIM;
-use UNISIM.VComponents.all;
+-- library UNISIM;
+-- use UNISIM.VComponents.all;
 
 entity sevenSegDecoder is
     Port ( i_D : in STD_LOGIC_VECTOR (3 downto 0);

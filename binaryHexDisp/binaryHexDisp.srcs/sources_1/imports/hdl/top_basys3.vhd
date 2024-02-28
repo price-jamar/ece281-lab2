@@ -94,7 +94,7 @@ begin
 
 	--	Port map: wire your component up to the switches and seven-segment display cathodes
 	-----------------------------------------------------	
-	uut_inst : sevenSegDecoder port map (
+	sevenSegDecoder_inst : sevenSegDecoder port map (
           -- use comma (not a semicolon)
           -- no comma on last line
           i_D => sw,

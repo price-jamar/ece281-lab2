@@ -71,7 +71,7 @@ architecture test_bench of sevenSegDecoder_tb is
 begin
 	-- PORT MAPS ----------------------------------------
     -- map ports for any component instances (port mapping is like wiring hardware)
-	uut_inst : sevenSegDecoder port map (
+	sevenSegDecoder_inst : sevenSegDecoder port map (
 	  -- use comma (not a semicolon)
 	  -- no comma on last line
 	  i_D => w_sw,

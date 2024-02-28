@@ -2,20 +2,33 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Feb 27 17:20:13 2024
-# Process ID: 6764
+# Start of session at: Tue Feb 27 17:23:11 2024
+# Process ID: 2008
 # Current directory: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18732 C:\Users\Jamar.Price\Desktop\ece281-lab2\binaryHexDisp\binaryHexDisp.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22788 C:\Users\Jamar.Price\Desktop\ece281-lab2\binaryHexDisp\binaryHexDisp.xpr
 # Log file: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/vivado.log
 # Journal file: C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/lab2_template_tb.vhd'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 863.086 ; gain = 102.641
 update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 20-1445] Cannot import file 'C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/sevenSegDecode_tb.vhd' on top of itself. Importing a file from the imported source directory can cause this problem.
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/sevenSegDecode_tb.vhd
+CRITICAL WARNING: [filemgmt 20-1445] Cannot import file 'C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/sevenSegDecode_tb.vhd' on top of itself. Importing a file from the imported source directory can cause this problem.
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/lab2_template_tb.vhd] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 C:/Users/Jamar.Price/Desktop/ece281-lab2/binaryHexDisp/binaryHexDisp.srcs/sim_1/imports/lab2/lab2_template_tb.vhd
+set_property top sevenSegDecoder_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 17:21:19 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 17:27:57 2024...
